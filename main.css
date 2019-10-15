@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right,#2c3e50,#4ca1af);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#contentSection{
+    width: 100%;
+    text-align:center;
+}
+
+#randomButton{
+    padding:  10px 32vw;
+    border-radius: 10px;
+    background-color:white;
+    border: solid 2px black;
+}
+
+#randomButton a{
+    width: 100%;
+text-decoration: none;
+color:black;
+text-transform: uppercase;
+}
+
+#output{
+    background-color:white;
+}
